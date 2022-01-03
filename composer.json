@@ -1,0 +1,9 @@
+{
+	"require": {
+		"developercielo/api-3.0-php": "^1.0",
+		"phpmailer/phpmailer": "^6.0"
+	},
+	"require": {
+        "phpmailer/phpmailer": "^6.0"
+    }
+}

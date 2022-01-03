@@ -1,0 +1,1 @@
+<?php $_SESSION['montagem'] = $_POST['dado']; ?>

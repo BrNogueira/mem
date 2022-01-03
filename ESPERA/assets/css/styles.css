@@ -1,0 +1,88 @@
+
+
+.font-600{
+	font-weight: 600!important;
+}
+.font-700{
+	font-weight: 700!important;
+}
+
+
+.btn-custom         				{color: #fff;background-color: #5cb8d9;border-color: #5cb8d9;}
+.btn-custom:hover, 
+.btn-custom:focus, 
+.btn-custom:active, 
+.btn-custom.active, 
+.open .dropdown-toggle.btn-custom	{ color: #fff; background-color: #5cb8d9;border-color: #5cb8d9; }
+
+
+.imagem_esquerda_espera_inicial{
+	width: 100%;
+	animation-duration: 3s;
+	animation-iteration-count: infinite; 
+}    
+.imagem_direita_espera_inicial{
+	width: 100%;
+	animation-duration: 3s;
+}
+span.btn_contato a.btn {
+    font-size: 15px;
+    color: #fff;
+    width:auto;
+    padding: 5px 20px 5px 20px;
+    background: #ed739299;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin-top: 9px;
+}
+.bloco_botao_contato{
+	padding-top: 14em;
+}
+.titulo{ font-size: x-large; color: #73AB5B;}
+span.btn_contato a.btn:hover{ text-decoration: none; color:#fff; background: #ED7392;}
+.pagina_espera{	font-family: 'Open Sans', sans-serif;}
+.efects:hover{	transition: 3s;}
+.modal-content{
+	padding-left: 9px;
+    padding-right: 10px;
+}
+.modal-title{
+	font-size: x-large;
+}
+.modal-footer .btn+.btn {
+	border-color: #73AB5B;
+	background:#73AB5B;
+}
+.rodape_contato{
+	margin-left: 21em;
+}
+.rodape_contato p{font-weight: 100;}
+.btn-contato{
+	margin-top: 10px;
+}
+ @media (min-width: 1024px){
+	.rodape_contato{
+		margin-left: 21px;
+		width: 100%;
+		padding-right: 5%;
+	}
+	
+}
+
+@media (max-width:768px){
+	.bloco_botao_contato{
+		padding-top: 0%!important;
+	}
+	.rodape_contato{
+		margin-left: 0;
+		margin-top: 3em;
+	}
+	.bloco_botao_contato{
+		margin-top: 0px;
+		padding-top: 14px;
+		text-align: center;
+	}
+	.btn-contato {
+		margin-top: 28px;
+	}
+}

@@ -1,0 +1,1 @@
+<?php $_SESSION['frete_escolhido'] = $_POST['opcao']; ?>
